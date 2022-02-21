@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/897994953907666954/944901183317872710/unknown.png");
+}
+
+.spawn-locations {
+    text-transform: uppercase;
+    position: absolute;
+    top: 2.3%;
+    left: 15.5%;
+    /* background-color: rgb(23 23 23 / 80%); */
+    border-radius: .8vh;
+    padding: 30px;
+    cursor: default;
+}
+
+.location {
+    font-family: 'Poppins', sans-serif;
+    width: 28vh;
+    /* height: 4.5vh; */
+    /* margin-bottom: 2vh; */
+    transition: 0.2s;
+    transition: .1s linear;
+    border-radius: .3vh;
+    cursor: pointer;
+    margin: auto;
+    /* background-color: rgb(23 23 23 / 50%); */
+    font-weight: bold;
+}
+
+.location > p {
+    background-color: rgb(23 23 23 / 20%);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+    position: relative;
+    color: #ededed;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.8vh;
+}
+
+.thebottext {
+	background-color: rgb(23 23 23 / 20%);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.thebottext:hover {
+    background-color: #ff58588f;
+    transition: 0.2s;
+}
+
+.thehousetext:hover {
+    background-color: #ff58588f;
+    transition: 0.2s;
+}
+
+.selected {
+    opacity: 0.7;
+}
+
+.submit-spawn {
+    background-color: rgb(23 23 23 / 20%);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+    width: 28vh;
+    height: 4.5vh;
+    margin-bottom: .75vh;
+    transition: 0.2s;
+    border-radius: .3vh;
+    cursor: pointer;
+}
+
+.submit-spawn > p {
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.6vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.submit-spawn:hover {
+    background-color: #ff58588f;
+    transition: 0.2s;
+}
+
+#spawn-label {
+    color: #ededed;
+    font-weight: bold;
+}
+
+.loclabel {
+    margin: auto;
+    width: 28vh;
+    height: 4vh;
+    transition: 0.2s;
+}
+
+.loclabel > p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: #ededed;
+    text-align: center;
+    font-size: 1.5vh;
+}
