@@ -72,3 +72,4 @@ QB.Spawns = {
 ```
 # qb-spawn
 # qb-spawn
+# qb-spawner
