@@ -70,8 +70,3 @@ QB.Spawns = {
     },
 }
 ```
-# qb-spawn
-# qb-spawn
-# qb-spawner
-# qb-spawner
-# qb-spawn
